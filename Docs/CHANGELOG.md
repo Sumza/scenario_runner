@@ -14,7 +14,9 @@
 * Added a sensor barrier for the agents to ensure that the simulation waits for them to render their data.
 * Added an option to produce a machine-readable JSON version of the scenario report.
 ### :bug: Bug Fixes
-* Fixed exception when using OSC scenarios without EnvironmentAction inside Storyboard-Init 
+* Fixed exception when using OSC scenarios without EnvironmentAction inside Storyboard-Init
+### :ghost: Maintenance
+* Added check to ensure OSC names (for story/act/maneuver) are unique
 
 
 ## CARLA ScenarioRunner 0.9.10
